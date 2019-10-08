@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: black;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 15%;
+}
+
+header.startup {
+  background-image: url(landing2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  background-color: grey;
+  border-color: grey;
+  border-width: 5px;
+  cursor: pointer;
+}
